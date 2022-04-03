@@ -1,0 +1,208 @@
+/* difine style */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Style/');
+}
+
+/*Main page*/
+
+
+#main
+{
+    width: 90%;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*header*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav ul li
+{
+    margin-right: 10px;
+    color: black;
+}
+
+/*aside*/
+
+aside
+{
+    background:  url("../Images/backgroung_image.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+#posteur
+{
+    align-items: center;
+    text-align: center;
+}
+
+aside img
+{
+    margin-top: 10%;
+
+}
+
+aside h1
+{
+    color: white;
+
+}
+
+
+/*Section*/
+
+
+#offre
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mesOffre img
+{
+    width: 64px;
+    height: 64px;
+
+}
+
+#introduction
+{
+    text-align: center;
+}
+
+
+.mesOffre 
+{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    margin-top: 10px;
+
+}
+
+.mesOffre h2
+{
+    text-transform: uppercase;
+
+}
+#commentarie
+{
+    text-align: center;
+
+}
+
+.descriptionOffre
+{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/*footer*/
+
+footer
+{
+    background-color: #44127E;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer h3
+{
+    color: white;
+
+}
+
+
+#fElement
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h4
+{
+    color: #e4def1ef;
+
+}
+
+
+.infoDivers p , .infoDivers ul li 
+{
+    text-align: left;
+    margin-left: 30%;
+    color: white;
+    width: 100%;
+
+
+}
+
+
+.fa-brands
+{
+    color: white;
+    margin-left: 80px;
+
+}
+
+/* */
+
+@media all and (max-width: 1024px)
+{ 
+
+    aside
+    {
+        display: none;
+    }
+
+    #offre
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+ 
+    }
+    .mesOffre
+    {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
